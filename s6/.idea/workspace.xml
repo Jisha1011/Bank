@@ -1,4 +1,201 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PropertiesComponent">{}</component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a71a57cd-a656-4647-a55a-6a40d66b3eb9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Accounts/accounts/accounts/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Accounts/accounts/accounts/src/main/java/com/bank/accounts/dto/AccountsContactInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Accounts/accounts/accounts/src/main/resources/application_prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Accounts/accounts/accounts/src/main/resources/application_qa.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Card/Cards/cards/src/main/java/com/bank/cards/dto/CardsContactInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Card/Cards/cards/src/main/resources/application_prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Card/Cards/cards/src/main/resources/application_qa.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Loan/Loan/loan/src/main/java/com/bank/loans/dto/LoansContactInfoDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Loan/Loan/loan/src/main/resources/application_prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Loan/Loan/loan/src/main/resources/application_qa.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Accounts/accounts/accounts/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Accounts/accounts/accounts/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Accounts/accounts/accounts/src/main/java/com/bank/accounts/AccountsApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Accounts/accounts/accounts/src/main/java/com/bank/accounts/audit/AuditAwareImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Accounts/accounts/accounts/src/main/java/com/bank/accounts/constants/AccountsConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Accounts/accounts/accounts/src/main/java/com/bank/accounts/controller/AccountsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Accounts/accounts/accounts/src/main/java/com/bank/accounts/dto/AccountsDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Accounts/accounts/accounts/src/main/java/com/bank/accounts/dto/CustomerDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Accounts/accounts/accounts/src/main/java/com/bank/accounts/dto/ErrorResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Accounts/accounts/accounts/src/main/java/com/bank/accounts/dto/ResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Accounts/accounts/accounts/src/main/java/com/bank/accounts/entity/Accounts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Accounts/accounts/accounts/src/main/java/com/bank/accounts/entity/BaseEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Accounts/accounts/accounts/src/main/java/com/bank/accounts/entity/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Accounts/accounts/accounts/src/main/java/com/bank/accounts/exception/CustomerAlreadyExistsException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Accounts/accounts/accounts/src/main/java/com/bank/accounts/exception/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Accounts/accounts/accounts/src/main/java/com/bank/accounts/exception/ResourceNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Accounts/accounts/accounts/src/main/java/com/bank/accounts/mapper/AccountsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Accounts/accounts/accounts/src/main/java/com/bank/accounts/mapper/CustomerMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Accounts/accounts/accounts/src/main/java/com/bank/accounts/repository/AccountsRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Accounts/accounts/accounts/src/main/java/com/bank/accounts/repository/CustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Accounts/accounts/accounts/src/main/java/com/bank/accounts/service/IAccountsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Accounts/accounts/accounts/src/main/java/com/bank/accounts/service/impl/AccountServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Accounts/accounts/accounts/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Accounts/accounts/accounts/src/main/resources/schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accounts/accounts/accounts/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accounts/accounts/accounts/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Accounts/accounts/accounts/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accounts/accounts/accounts/src/main/java/com/bank/accounts/AccountsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Accounts/accounts/accounts/src/main/java/com/bank/accounts/AccountsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accounts/accounts/accounts/src/main/java/com/bank/accounts/audit/AuditAwareImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Accounts/accounts/accounts/src/main/java/com/bank/accounts/audit/AuditAwareImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accounts/accounts/accounts/src/main/java/com/bank/accounts/constants/AccountsConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/Accounts/accounts/accounts/src/main/java/com/bank/accounts/constants/AccountsConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accounts/accounts/accounts/src/main/java/com/bank/accounts/controller/AccountsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Accounts/accounts/accounts/src/main/java/com/bank/accounts/controller/AccountsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accounts/accounts/accounts/src/main/java/com/bank/accounts/dto/AccountsDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Accounts/accounts/accounts/src/main/java/com/bank/accounts/dto/AccountsDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accounts/accounts/accounts/src/main/java/com/bank/accounts/dto/CustomerDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Accounts/accounts/accounts/src/main/java/com/bank/accounts/dto/CustomerDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accounts/accounts/accounts/src/main/java/com/bank/accounts/dto/ErrorResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Accounts/accounts/accounts/src/main/java/com/bank/accounts/dto/ErrorResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accounts/accounts/accounts/src/main/java/com/bank/accounts/dto/ResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/Accounts/accounts/accounts/src/main/java/com/bank/accounts/dto/ResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accounts/accounts/accounts/src/main/java/com/bank/accounts/entity/Accounts.java" beforeDir="false" afterPath="$PROJECT_DIR$/Accounts/accounts/accounts/src/main/java/com/bank/accounts/entity/Accounts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accounts/accounts/accounts/src/main/java/com/bank/accounts/entity/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/Accounts/accounts/accounts/src/main/java/com/bank/accounts/entity/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accounts/accounts/accounts/src/main/java/com/bank/accounts/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Accounts/accounts/accounts/src/main/java/com/bank/accounts/entity/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accounts/accounts/accounts/src/main/java/com/bank/accounts/exception/CustomerAlreadyExistsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Accounts/accounts/accounts/src/main/java/com/bank/accounts/exception/CustomerAlreadyExistsException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accounts/accounts/accounts/src/main/java/com/bank/accounts/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Accounts/accounts/accounts/src/main/java/com/bank/accounts/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accounts/accounts/accounts/src/main/java/com/bank/accounts/exception/ResourceNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Accounts/accounts/accounts/src/main/java/com/bank/accounts/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accounts/accounts/accounts/src/main/java/com/bank/accounts/mapper/AccountsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Accounts/accounts/accounts/src/main/java/com/bank/accounts/mapper/AccountsMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accounts/accounts/accounts/src/main/java/com/bank/accounts/mapper/CustomerMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/Accounts/accounts/accounts/src/main/java/com/bank/accounts/mapper/CustomerMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accounts/accounts/accounts/src/main/java/com/bank/accounts/repository/AccountsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Accounts/accounts/accounts/src/main/java/com/bank/accounts/repository/AccountsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accounts/accounts/accounts/src/main/java/com/bank/accounts/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/Accounts/accounts/accounts/src/main/java/com/bank/accounts/repository/CustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accounts/accounts/accounts/src/main/java/com/bank/accounts/service/IAccountsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Accounts/accounts/accounts/src/main/java/com/bank/accounts/service/IAccountsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accounts/accounts/accounts/src/main/java/com/bank/accounts/service/impl/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Accounts/accounts/accounts/src/main/java/com/bank/accounts/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accounts/accounts/accounts/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Accounts/accounts/accounts/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accounts/accounts/accounts/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Accounts/accounts/accounts/src/main/resources/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Card/Cards/cards/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Card/Cards/cards/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Card/Cards/cards/src/main/java/com/bank/cards/CardsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Card/Cards/cards/src/main/java/com/bank/cards/CardsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Card/Cards/cards/src/main/java/com/bank/cards/controller/CardsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Card/Cards/cards/src/main/java/com/bank/cards/controller/CardsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Card/Cards/cards/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Card/Cards/cards/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Loan/Loan/loan/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Loan/Loan/loan/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Loan/Loan/loan/src/main/java/com/bank/loans/LoanApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Loan/Loan/loan/src/main/java/com/bank/loans/LoanApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Loan/Loan/loan/src/main/java/com/bank/loans/controller/LoansController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Loan/Loan/loan/src/main/java/com/bank/loans/controller/LoansController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Loan/Loan/loan/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Loan/Loan/loan/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Record" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2wlhaYgyKGFllAJASIoSLK5NXfO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.Accounts.executor": "Run",
+    "Spring Boot.CardsApplication.executor": "Run",
+    "Spring Boot.LoanApplication.executor": "Run",
+    "com.codeium.enabled": "true",
+    "git-widget-placeholder": "session6",
+    "last_opened_file_path": "D:/Workspace/Microservices/BankingApplication/Sessions/Bank/s6",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CardsApplication">
+    <configuration name="Accounts" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jdk-21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="DEBUG_MODE" value="true" />
+      <envs>
+        <env name="SPRING_PROFILES_ACTIVE" value="prod" />
+        <env name="BUILD_VERSION" value="1.68" />
+      </envs>
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="accounts" />
+      <option name="PROGRAM_PARAMETERS" value="--build.version=1.3" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bank.accounts.AccountsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CardsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="cards" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bank.cards.CardsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoanApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="loan" />
+      <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=prod" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bank.loans.LoanApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.Accounts" />
+      <item itemvalue="Spring Boot.CardsApplication" />
+      <item itemvalue="Spring Boot.LoanApplication" />
+    </list>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.23774.435" />
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-IU-251.23774.435" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a71a57cd-a656-4647-a55a-6a40d66b3eb9" name="Changes" comment="" />
+      <created>1746622133721</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1746622133721</updated>
+      <workItem from="1746622138098" duration="4349000" />
+      <workItem from="1746703090291" duration="8957000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
 </project>

@@ -108,7 +108,7 @@
                 <version>3.4.5</version>
                 <configuration>
                     <to>
-                        <image>littlej2202/cards:s</image>
+                        <image>littlej2202/cards:s6</image>
                     </to>
                 </configuration>
             </plugin>

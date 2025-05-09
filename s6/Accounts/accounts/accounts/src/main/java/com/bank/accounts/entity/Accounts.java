@@ -6,16 +6,14 @@ import org.hibernate.annotations.GenericGenerator;
 
 @Entity
 @Getter @Setter @ToString @AllArgsConstructor @NoArgsConstructor
-public class Customer extends BaseEntity{
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
-    @GenericGenerator(name="native", strategy = "native")
+public class Accounts extends BaseEntity{
     @Column(name = "customer_id")
     private Long customerId;
+    @Id
+    private Long accountNumber;
+    private String accountType;
+    private String branchAddress;
 
-    private String name;
-    private String email;
-    private String mobileNumber;
 
 
 
